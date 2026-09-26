@@ -1,21 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+# NextMart 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+NextMart is a modern and responsive e-commerce web application built with React.js. It allows users to browse products, search and filter products, view product details, and manage their shopping cart.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🛍️ Product listing
+- 🔍 Product search
+- 📂 Category filtering
+- 🏷️ Brand filtering
+- 💰 Price range filtering
+- 📦 Product details page
+- 🛒 Add to cart
+- ➕ Increase/decrease product quantity
+- 💾 Cart data stored in LocalStorage
+- 🔐 User authentication with Clerk
+- 📱 Responsive design
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- React Router DOM
+- Context API
+- Axios
+- Tailwind CSS
+- Clerk Authentication
+- DummyJSON API
+- LocalStorage
+- React Icons
 
-## Expanding the Oxlint configuration
+## 📡 API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# NextMart
-NextMart – React E-Commerce App A modern and responsive e-commerce web application built with React.js, featuring product search, category and brand filters, price filtering, product details, cart management, and user authentication. The project uses Context API, React Router, Axios, Tailwind CSS, Clerk, DummyJSON API, and LocalStorage.
->>>>>>> 6d47622a332c63eba269040be5697794b990d9c8
+Product data is fetched from the DummyJSON API:
+
+https://dummyjson.com/
+
+## 📂 Main Concepts
+
+This project helped me practice:
+
+- React Components
+- Props and State
+- Context API
+- React Hooks
+- React Router
+- API Integration with Axios
+- LocalStorage
+- Authentication
+- Responsive UI with Tailwind CSS
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ayan1632/NextMart-yt.git
